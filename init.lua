@@ -1,5 +1,6 @@
 local default_skin = ts_skins.build_skin_texture(ts_skins.get_body_features(""), ts_skins.get_clothing_textures(""))
 local priv = minetest.settings:get("ts_skins_dummies.priv") or "server"
+if priv == "" then priv = "server" end
 
 minetest.register_entity("ts_skins_dummies:dummy", {
 	initial_properties = {
