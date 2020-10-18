@@ -1,0 +1,2 @@
+# The priv needed to spawn dummies
+ts_skins_dummies.priv (Priv for spawning dummies) string server
